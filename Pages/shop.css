@@ -1,0 +1,39 @@
+.whiteSection {
+    position: absolute;
+    width: 1440px;
+    height: 630px;
+    left: 0px;
+    top: 239px;
+    
+    background: #FFFFFF;
+}
+
+.greySection {
+    position: absolute;
+    width: 1440px;
+    height: 591px;
+    left: 1px;
+    top: 872px;
+    
+    background: #F5F5F5;
+}
+
+#ShopHeader {
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 6.69%;
+    bottom: 91.38%;
+    
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    
+    color: #40777D;
+
+}
