@@ -31,6 +31,10 @@ img .about-section {
     width: 200px;
     height: 236px;
 }
+img .about-section :hover {
+    color: black;
+    opacity: 0.3;
+}
 .social-section {
     background-color: #F5F5F5;
 }
