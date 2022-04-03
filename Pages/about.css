@@ -20,7 +20,9 @@ h1 {
 ul {
     list-style: none;
     text-align: center;
-    
+}
+ul li {
+    display: inline-block;
 }
 .about-section {
     background-color: #F5F5F5;
