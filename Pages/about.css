@@ -16,22 +16,31 @@ h1 {
     align-items: center;
     letter-spacing: 0.05em;
     color: #40777D;
+    margin-bottom: 80px;
 }
 ul {
     list-style: none;
     text-align: center;
 }
+p {
+    font-family: 'Raleway', sans-serif;
+}
+.name {
+    font-size: 24px;
+}
 ul li {
     display: inline-block;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 .about-section {
     background-color: #F5F5F5;
 }
-img .about-section {
+.about-section .image {
     width: 200px;
     height: 236px;
 }
-img .about-section :hover {
+.about-section .image :hover {
     color: black;
     opacity: 0.3;
 }
