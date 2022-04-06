@@ -1,46 +1,76 @@
+
 @font-face {
-    font-family: 'Hiragino Kaku Gothic ProN';
-    src: url('pages/fonts/Hiragino\ Kaku\ Gothic\ Pro\ W3.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  src: url('pages/fonts/Hiragino\ Kaku\ Gothic\ Pro\ W3.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hiragino Kaku Gothic ProN';
 }
 
 nav {
-    background-color: white;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    position: sticky;
-    top: 0px;
-  }
-  
-  nav a {
-    color: black;
-    text-decoration: none;
-    margin: 0px 20px;
-    font-size: 1.3em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
 
-    font-family: 'Hiragino Kaku Gothic ProN';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
+  max-width: 1440px;
+  min-height: 96;
+}
 
-    float: right;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
 
-  #navText{
-    color: black;
-    text-decoration: none;
-    margin: 0px 20px;
-    font-size: 1.3em;
+.navbar {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    font-family: 'Hiragino Kaku Gothic ProN';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    float: left;
-  }
+.logo {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.logo h1 {
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.logo a {
+  font-size: 38.58px;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-right: 32px;
+}
+
+.menu a {
+  font-size: 20.09px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.15s ease-out;
+}
+
+.active, .nav-link:hover {
+  border-bottom: 2px solid;
+}
+
