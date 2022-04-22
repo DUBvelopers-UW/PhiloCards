@@ -4,7 +4,7 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+
   h1 {
     justify-content: center;
     text-align: center;
@@ -23,42 +23,6 @@
 .top_section {
   position: relative;
   top: 50px;
-}
-
-.shift_right {
-  float: right;
-  position: relative;
-  top: 30px;
-  right: 180px;
-}
-
-img.left {
-  position: relative;
-  left: 80px;
-  width: 550px;
-  height: 400px;
-}
-
-p.title{
-  font-size: 32px;
-}
-
-p.section{
-  font-family: 'Raleway';
-  font-size: 20px;
-}
-
-.button{
-  position: relative;
-  top: 100px;
-  font-family: 'Roboto';
-  font-size: 26px;
-  text-align: center;
-  text-decoration: none;
-  padding: 25px 60px;
-  color: white;
-  background: #40777D;
-  border-radius: 43.5px;
 }
 
   * {
