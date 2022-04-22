@@ -1,9 +1,10 @@
 @font-face {
     font-family: 'Hiragino Kaku Gothic ProN';
-    src: url('fonts/Hiragino\ Kaku\ Gothic\ Pro\ W3.otf') format('truetype');
+    src: url('Pages/fonts/Hiragino\ Kaku\ Gothic\ Pro\ W3.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+  }
+
 h1 {
     justify-content: center;
     text-align: center;
@@ -62,28 +63,7 @@ ul li{
 .overlay:hover:after {
     opacity: 0.8;
 }
-/*.about-section .image {
-    width: 100%;
-    position: relative;
-}
-.overlay {
-    width: 200px;
-    height: 236px;
-    position: absolute;
-}
-.overlay::after {
-    content: attr(text-content);
-    position: absolute;
-    text-align: center;
-    color:#fff;
-    width:200px; height:236px;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    z-index: 99;
-}
-.overlay:hover::after {
-    opacity:0.7;
-}*/
+
 .social-section {
     background-color: #F5F5F5;
 }
