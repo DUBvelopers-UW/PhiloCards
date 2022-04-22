@@ -5,6 +5,21 @@
     font-style: normal;
   }
   
+  h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Hiragino Kaku Gothic ProN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #40777D;
+    margin-bottom: 80px;
+}
+
   * {
     margin: 0;
     padding: 0;
