@@ -1,0 +1,26 @@
+.nav {
+  font-family: var(--font-heading);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+  color: var(--color-font);
+
+  // font size for the logo title is a bit unambiguous
+  .title {
+    font-size: var(--font-heading-3);
+  }
+
+  // gap between the links is not specified
+  // font weight must be bold
+  .links {
+    align-items: center;
+    font-size: var(--font-body-3);
+    font-weight: 700;
+    display: flex;
+    gap: 2rem;
+  }
+}
