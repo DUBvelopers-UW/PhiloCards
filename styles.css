@@ -261,3 +261,42 @@ h3 {
 .WhatIsSection {
   margin-bottom: 0px;
 }
+
+.textI {
+  position: relative;
+  width: 950px;
+  left: 350px;
+}
+
+.HTP {
+  position: relative;
+  
+}
+
+.shift_right {
+  float: right;
+  position: relative;
+  top: 30px;
+  right: 180px;
+}
+
+.button{
+  position: relative;
+  top: 100px;
+  font-family: 'Hiragino Kaku Gothic ProN';
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px 60px;
+  color: white;
+  background: #40777D;
+  border-radius: 43.5px;
+}
+
+img.left {
+  position: relative;
+  left: 160px;
+  bottom: 45px;
+  width: 550px;
+  height: 400px;
+}
