@@ -23,9 +23,9 @@
 .top_section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: white;
   margin-top: 10%;
-  margin-left: 8%;
   margin-bottom: 10%;
 }
 
@@ -37,6 +37,7 @@ ul.left {
 .second_section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 10%;
   margin-bottom: 10%;
   background-color: #F5F5F5;
@@ -46,7 +47,7 @@ ul.left {
 
 .right{
   text-align: right;
-  width: 320px;
+  width: 20%;
   margin-left: 10%;
 }
 
