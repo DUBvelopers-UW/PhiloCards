@@ -79,15 +79,11 @@ nav a {
 }
 
 h1 {
-  justify-content: center;
-  text-align: center;
   font-family: 'Hiragino Kaku Gothic ProN';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
   line-height: 72px;
   display: flex;
-  align-items: center;
   letter-spacing: 0.05em;
   color: #40777D;
   margin-bottom: 80px;
@@ -245,4 +241,23 @@ h3 {
 
 .whiteB {
   color: white;
+}
+
+.PhiloHead {
+  position: relative;
+  width: 429.81px;
+  height: 240.56px;
+  left: 230px;
+  top: 60px;
+  font-size: 85px;
+}
+
+.PhiloText {
+    position: relative;
+    left: 270px;
+    top: -100px;
+}
+
+.WhatIsSection {
+  margin-bottom: 0px;
 }
