@@ -1,34 +1,39 @@
+import styles from '../styles/Shop.module.css'
+
 export default function Shop() {
   return (
     <>
-      <div className="top_section">
-        <h1>SHOP</h1>
-        <img src="images/card.png" className="left" />
-        <div className="shift_right">
-          <p className="title">Lorem ipsum</p>
-          <p>dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="cart.html" className="button">
-            ADD TO CART
-          </a>
+      <h1 className={styles.title}>SHOP</h1>
+      <div className={styles.top_section}>
+
+        <div>
+        <img src="images/card.png" className={styles.sizing} />
+        </div>
+
+        <ul className={styles.left}>
+          <ul><p className={styles.title}>Lorem ipsum</p></ul>
+          <ul><p className={styles.section}>dolor sit amet, consectetur adipiscing elit.</p></ul>
+          <ul><a href="cart.html" className={styles.button}>ADD TO CART</a></ul>
+        </ul>
+
+      </div>
+
+
+      <div className={styles.second_section}>
+        <div className={styles.right}>
+        <p className={styles.title}>Lorem ipsum</p>
+        <p className={styles.section}>
+          dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.
+        </p>
+        </div>
+
+        <div>
+          <img src="images/card.png" className={styles.small} />
         </div>
       </div>
 
-      <div className="second_section">
-        <img src="images/card.png" className="right" />
-        <div className="shift_left">
-          <p className="title">Lorem ipsum</p>
-          <p>
-            dolor sit amet, consectetur adipiscing elit. dolor sit amet,
-            consectetur adipiscing elit. dolor sit amet, consectetur adipiscing
-            elit. dolor sit amet, consectetur adipiscing elit. dolor sit amet,
-            consectetur adipiscing elit. dolor sit amet, consectetur adipiscing
-            elit.
-          </p>
-        </div>
-      </div>
-
-      <div className="third_section">
-        <h1>REVIEWS</h1>
+      <div className={styles.third_section}>
+        <h1 className={styles.title}>REVIEWS</h1>
       </div>
     </>
   )
