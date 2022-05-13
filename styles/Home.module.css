@@ -114,3 +114,45 @@
     flex-direction: column;
   }
 }
+
+.philoHead {
+  color: #40777d;
+  position: relative;
+  width: 429.81px;
+  height: 240.56px;
+  left: 120px;
+  top: -100px;
+  font-size: 85px;
+}
+
+.philoText {
+  position: relative;
+  margin: 0;
+  border: 0;
+  left: 150px;
+  top: -130px;
+}
+
+.shiftLeft {
+  position: relative;
+  left: -40px;
+}
+
+.coreHeader {
+  color: #40777d;
+}
+
+.center {
+  position: center;
+}
+
+.grey {
+  background-color: #F5F5F5;
+}
+
+.shift_right {
+  float: right;
+  position: relative;
+  top: 30px;
+  right: 180px;
+}
