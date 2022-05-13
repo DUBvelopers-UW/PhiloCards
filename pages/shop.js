@@ -7,7 +7,7 @@ export default function Shop() {
       <div className={styles.top_section}>
 
         <div>
-        <img src="images/card.png" className={styles.sizing} />
+        <img src="image/card.png" className={styles.sizing} />
         </div>
 
         <ul className={styles.left}>
@@ -28,7 +28,7 @@ export default function Shop() {
         </div>
 
         <div>
-          <img src="images/card.png" className={styles.small} />
+          <img src="image/card.png" className={styles.small} />
         </div>
       </div>
 
