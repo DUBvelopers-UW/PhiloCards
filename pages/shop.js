@@ -13,7 +13,7 @@ export default function Shop() {
         <ul className={styles.left}>
           <ul><p className={styles.title}>Lorem ipsum</p></ul>
           <ul><p className={styles.section}>dolor sit amet, consectetur adipiscing elit.</p></ul>
-          <ul><a href="cart.html" className={styles.button}>ADD TO CART</a></ul>
+          <ul><a href="#" className={styles.button}>ADD TO CART</a></ul>
         </ul>
 
       </div>
