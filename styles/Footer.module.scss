@@ -1,0 +1,56 @@
+.footer {
+  background-color: var(--color-brand-green-dark);
+  padding: 8rem 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-font-dark);
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-right: 3rem;
+    border-right: 1px solid white;
+
+    .title {
+      text-transform: uppercase;
+      font-size: var(--font-heading-3);
+
+      span {
+        display: block;
+      }
+    }
+
+    .contact {
+      line-height: 1.8;
+
+      p:nth-child(2) {
+        text-decoration: underline;
+        text-decoration-thickness: 0.1px;
+        text-underline-offset: 1px;
+      }
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 8rem;
+    padding: 0 6rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      min-width: 100px;
+
+      ul {
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
