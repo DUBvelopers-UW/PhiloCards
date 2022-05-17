@@ -40,9 +40,12 @@ li.member {
   width: 200px;
   height: 236px;
 }
-.about-section .image {
+.image {
   width: 200px;
   vertical-align: top;
+  width: 200px; 
+  height: 236px; 
+  object-fit: cover;
 }
 .overlay:after {
   content: attr(text-content);

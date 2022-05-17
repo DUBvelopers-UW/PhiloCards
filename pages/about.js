@@ -8,7 +8,7 @@ export default function About() {
         <ul className={styles.team}>
           <li className={styles.member}>
             <div className={styles.overlay} text-content="placeholder text">
-              <img src="image\cloverProfile.JPG" className={styles.image}/>
+              <img src="image\cloverProfile.JPG" className={styles.image} />
             </div>
             <p className={styles.name}>
               <b>Clover Li</b>
@@ -16,7 +16,7 @@ export default function About() {
           </li>
           <li className={styles.member}>
             <div className={styles.overlay} text-content="placeholder text">
-              <img src="images/placeholder.PNG" className="image" />
+              <img src="image/vishankProfile.jpeg" className={styles.image} />
             </div>
             <p className={styles.name}>
               <b>Vishank Rughwani</b></p><p>CFO
@@ -26,7 +26,7 @@ export default function About() {
         <ul className={styles.team}>
           <li className={styles.member}>
             <div className={styles.overlay} text-content="placeholder text">
-              <img src="images/placeholder.PNG" className="image" />
+              <img src="image/khanProfile.jpeg" className={styles.image} />
             </div>
             <p className={styles.name}>
               <b>Kahn Wang</b>
@@ -34,7 +34,7 @@ export default function About() {
           </li>
           <li className={styles.member}>
             <div className={styles.overlay} text-content="placeholder text">
-              <img src="images/placeholder.PNG" className="image" />
+              <img src="image/scottProfile.PNG" className={styles.image} />
             </div>
             <p className={styles.name}>
               <b>Scott Ni</b>
@@ -42,7 +42,7 @@ export default function About() {
           </li>
           <li className={styles.member}>
             <div className={styles.overlay} text-content="placeholder text">
-              <img src="images/placeholder.PNG" className="image" />
+              <img src="image/jasonProfile.JPG" className={styles.image} />
             </div>
             <p className={styles.name}>
               <b>Jason Weng</b>
