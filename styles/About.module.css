@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hiragino Kaku Gothic ProN';
-}
-
-h1 {
+h1.title {
   justify-content: center;
   text-align: center;
-  font-family: 'Hiragino Kaku Gothic ProN';
+  font-family: var(--font-heading);
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -18,17 +12,20 @@ h1 {
   color: #40777d;
   margin-bottom: 80px;
 }
-ul {
+ul.team {
   list-style: none;
   text-align: center;
 }
-p {
-  font-family: 'Raleway', sans-serif;
+.about-section p {
+  font-family: var(--font-body), sans-serif;
 }
 .name {
   font-size: 24px;
 }
-ul li {
+p.about-section {
+  text-align: center;
+}
+li.member {
   display: inline-block;
   margin-right: 60px;
   margin-left: 60px;
@@ -44,7 +41,7 @@ ul li {
   height: 236px;
 }
 .about-section .image {
-  width: 100%;
+  width: 200px;
   vertical-align: top;
 }
 .overlay:after {
@@ -69,7 +66,7 @@ ul li {
   background-color: #f5f5f5;
 }
 
-nav {
+.about-section nav {
   position: sticky;
   top: 0;
   left: 0;
@@ -80,7 +77,7 @@ nav {
   min-height: 96;
 }
 
-nav a {
+.about-section nav a {
   text-decoration: none;
   color: #000000;
 }
