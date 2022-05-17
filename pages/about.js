@@ -1,50 +1,52 @@
+import styles from '../styles/About.module.css'
+
 export default function About() {
   return (
     <>
-      <div className="about-section">
-        <h1>ABOUT THE TEAM</h1>
-        <ul>
-          <li>
-            <div className="overlay" text-content="placeholder text">
-              <img src="images/placeholder.PNG" className="image" />
+      <div className={styles.team}>
+        <h1 className={styles.title}>ABOUT THE TEAM</h1>
+        <ul className={styles.team}>
+          <li className={styles.member}>
+            <div className={styles.overlay} text-content="placeholder text">
+              <img src="image\cloverProfile.JPG" className={styles.image}/>
             </div>
-            <p className="name">
-              <b>Clover Li</b>CEO
-            </p>
+            <p className={styles.name}>
+              <b>Clover Li</b>
+            </p><p>CEO</p>
           </li>
-          <li>
-            <div className="overlay" text-content="placeholder text">
+          <li className={styles.member}>
+            <div className={styles.overlay} text-content="placeholder text">
               <img src="images/placeholder.PNG" className="image" />
             </div>
-            <p className="name">
-              <b>Vishank Rughwani</b>CFO
+            <p className={styles.name}>
+              <b>Vishank Rughwani</b></p><p>CFO
             </p>
           </li>
         </ul>
-        <ul>
-          <li>
-            <div className="overlay" text-content="placeholder text">
+        <ul className={styles.team}>
+          <li className={styles.member}>
+            <div className={styles.overlay} text-content="placeholder text">
               <img src="images/placeholder.PNG" className="image" />
             </div>
-            <p className="name">
-              <b>Kahn Wang</b>CTO
-            </p>
+            <p className={styles.name}>
+              <b>Kahn Wang</b>
+            </p><p>CTO</p>
           </li>
-          <li>
-            <div className="overlay" text-content="placeholder text">
+          <li className={styles.member}>
+            <div className={styles.overlay} text-content="placeholder text">
               <img src="images/placeholder.PNG" className="image" />
             </div>
-            <p className="name">
-              <b>Scott Ni</b>CMO
-            </p>
+            <p className={styles.name}>
+              <b>Scott Ni</b>
+            </p><p>CMO</p>
           </li>
-          <li>
-            <div className="overlay" text-content="placeholder text">
+          <li className={styles.member}>
+            <div className={styles.overlay} text-content="placeholder text">
               <img src="images/placeholder.PNG" className="image" />
             </div>
-            <p className="name">
-              <b>Jason Weng</b>COO
-            </p>
+            <p className={styles.name}>
+              <b>Jason Weng</b>
+            </p><p>COO</p>
           </li>
         </ul>
       </div>
