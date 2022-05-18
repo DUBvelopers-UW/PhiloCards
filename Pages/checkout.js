@@ -64,6 +64,7 @@ export default function Checkout() {
             </div>
           </div>
         </div>
+        <button className={styles.place_order_button}>Place Order</button>
       </div>
     </div>
   </>
