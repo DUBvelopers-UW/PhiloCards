@@ -55,6 +55,7 @@
   --color-font-dark: white;
 
   --color-background: #fff;
+  --color-background-dark: #f5f5f5;
 
   font-family: var(--font-body);
   display: flex;

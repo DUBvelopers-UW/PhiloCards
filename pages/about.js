@@ -51,8 +51,8 @@ export default function About() {
         </ul>
       </div>
 
-      <div className="location-section">
-        <h1>LOCATION</h1>
+      <div className={styles.location_section}>
+        <h1 className={styles.title}>LOCATION</h1>
 
         <p>
           If you lived near the University of Washington, we can deliver the
@@ -60,8 +60,8 @@ export default function About() {
           Seattle, WA 98105 Phone #+1 2062948126
         </p>
       </div>
-      <div className="social-section">
-        <h1>SOCIAL MEDIA</h1>
+      <div className={styles.social_section}>
+        <h1 className={styles.title}>SOCIAL MEDIA</h1>
       </div>
     </>
   )
