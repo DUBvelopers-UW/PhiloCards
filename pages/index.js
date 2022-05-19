@@ -30,16 +30,20 @@ export default function Home() {
 
       <div className={styles.grey}>
         <h3 className={`${styles.coreHeader} ${styles.shiftRight}`}>HOW TO PLAY</h3>
-        <p>
+        <img src="image/card.png" className={styles.image} />
+        <div>        
+          <p className={styles.rightText}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
           dolor quidem vero possimus! Omnis asperiores, fuga quisquam ducimus,
           nisi expedita doloremque vitae quae tempore excepturi possimus eum
           sunt incidunt hic.
-        </p>
+          </p>
+        </div>
+
       </div>
 
       <div className="">
-        <h3>TESTIMONIALS</h3>
+        <h3 className={styles.coreHeader}>TESTIMONIALS</h3>
       </div>
     </div>
   )
