@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hiragino Kaku Gothic ProN';
-}
-
-h1 {
+h1.title {
   justify-content: center;
   text-align: center;
-  font-family: 'Hiragino Kaku Gothic ProN';
+  font-family: var(--font-heading);
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -16,26 +10,39 @@ h1 {
   align-items: center;
   letter-spacing: 0.05em;
   color: #40777d;
-  margin-bottom: 80px;
+  margin-top: 20px;
 }
-ul {
+ul.team {
   list-style: none;
   text-align: center;
+  margin-top: 50px;
 }
-p {
-  font-family: 'Raleway', sans-serif;
+.about-section p {
+  font-family: var(--font-body), sans-serif;
 }
 .name {
   font-size: 24px;
+  margin-top: 10px;
 }
-ul li {
+p.about-section {
+  text-align: center;
+}
+li.member {
   display: inline-block;
   margin-right: 60px;
   margin-left: 60px;
   position: relative;
 }
-.about-section {
+.team {
   background-color: #f5f5f5;
+}
+
+.location_section {
+  background-color: var(--color-background);
+}
+
+p.location_section {
+  overflow-wrap: break-word;
 }
 
 .overlay {
@@ -43,9 +50,12 @@ ul li {
   width: 200px;
   height: 236px;
 }
-.about-section .image {
-  width: 100%;
+.image {
+  width: 200px;
   vertical-align: top;
+  width: 200px; 
+  height: 236px; 
+  object-fit: cover;
 }
 .overlay:after {
   content: attr(text-content);
@@ -65,31 +75,8 @@ ul li {
   opacity: 0.8;
 }
 
-.social-section {
-  background-color: #f5f5f5;
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-
-  max-width: 1440px;
-  min-height: 96;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.navbar {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.social_section {
+  background-color: var(--color-background-dark);
 }
 
 .logo {

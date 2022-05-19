@@ -1,11 +1,13 @@
-import Link from 'next/link'
-import styles from '../styles/Navbar.module.scss'
+import Link from "next/link";
+import Image from "next/image";
+import styles from "../styles/Navbar.module.scss";
 
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <span className={styles.title}>phillo</span>
+        <Image src="/image/logo.svg" height={48} width={48} />
+        <span className={styles.title}>philo</span>
       </div>
       <div className={styles.links}>
         <Link href="/">
@@ -22,5 +24,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }

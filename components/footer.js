@@ -1,67 +1,38 @@
+import styles from "../styles/Footer.module.scss";
+
 export default function Footer() {
   return (
     <>
-      <footer className="footer">
-        <div className="footer__addr">
-          <p className="whiteP">PHILO</p>
-          <p className="whiteP">CARDS</p>
-
-          <address>
-            <span className="whiteB">4801 24th NE Seattle, WA 98105</span>
-            <br />
-            <span className="whiteB">philo.cards@gmail.com</span> <br />
-            <span className="whiteB">206.294.8126</span>
-          </address>
+      <footer className={styles.footer}>
+        <div className={styles.banner}>
+          <h1 className={styles.title}>
+            <span>philo</span> <span>cards</span>
+          </h1>
+          <div className={styles.contact}>
+            <p>philo.cards@gmail.com</p>
+            <p>206.294.8126</p>
+          </div>
         </div>
 
-        <ul className="footer__nav">
-          <li className="nav__item">
-            <h2 className="nav__title">EXPLORE</h2>
-
-            <ul className="nav__ul">
-              <li>
-                <a href="#">HOME</a>
-              </li>
-
-              <li>
-                <a href="#">SHOP</a>
-              </li>
-
-              <li>
-                <a href="#">ABOUT US</a>
-              </li>
+        <div className={styles["footer-nav"]}>
+          <div>
+            <h2>explore</h2>
+            <ul>
+              <li>home</li>
+              <li>shop</li>
+              <li>about us</li>
             </ul>
-          </li>
-
-          <li className="nav__item">
-            <h2 className="nav__title">SHOP</h2>
-
-            <ul className="nav__ul">
-              <li>
-                <a href="#">THE GAME</a>
-              </li>
-
-              <li>
-                <a href="#">REVIEWS</a>
-              </li>
+          </div>
+          <div>
+            <h2>shop</h2>
+            <ul>
+              <li>the game</li>
+              <li>reviews</li>
             </ul>
-          </li>
-
-          <li className="nav__item">
-            <h2 className="nav__title">FOLLOW</h2>
-
-            <ul className="nav__ul nav__ul--extra">
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-
-              <li>
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+          </div>
+          <h2>follow</h2>
+        </div>
       </footer>
     </>
-  )
+  );
 }
