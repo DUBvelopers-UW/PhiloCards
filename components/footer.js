@@ -1,4 +1,11 @@
 import styles from "../styles/Footer.module.scss";
+import { IconContext } from "react-icons";
+import {
+  IoMailOutline,
+  IoCallOutline,
+  IoLogoFacebook,
+  IoLogoInstagram,
+} from "react-icons/io5";
 
 export default function Footer() {
   return (
@@ -9,8 +16,16 @@ export default function Footer() {
             <span>philo</span> <span>cards</span>
           </h1>
           <div className={styles.contact}>
-            <p>philo.cards@gmail.com</p>
-            <p>206.294.8126</p>
+            <div>
+              <IoMailOutline />
+              <a href="mailto:philo.cards@gmail.com">philo.cards@gmail.com</a>
+            </div>
+            <div>
+              <IoCallOutline />
+              <a className={styles.call} href="tel:206-294-8126">
+                206.294.8126
+              </a>
+            </div>
           </div>
         </div>
 
@@ -18,9 +33,15 @@ export default function Footer() {
           <div>
             <h2>explore</h2>
             <ul>
-              <li>home</li>
-              <li>shop</li>
-              <li>about us</li>
+              <li>
+                <a href="/">home</a>
+              </li>
+              <li>
+                <a href="/shop">shop</a>
+              </li>
+              <li>
+                <a href="/about">about us</a>
+              </li>
             </ul>
           </div>
           <div>
@@ -30,7 +51,22 @@ export default function Footer() {
               <li>reviews</li>
             </ul>
           </div>
-          <h2>follow</h2>
+          <div>
+            <h2>follow</h2>
+            <IconContext.Provider value={{ className: "react-icons" }}>
+              <div className={styles["social-icons"]}>
+                <a href="https://www.facebook.com/philocards" target="_blank">
+                  <IoLogoFacebook size={24} />
+                </a>
+                <a
+                  href="https://www.instagram.com/philo_cards/"
+                  target="_blank"
+                >
+                  <IoLogoInstagram size={24} />
+                </a>
+              </div>
+            </IconContext.Provider>
+          </div>
         </div>
       </footer>
     </>
