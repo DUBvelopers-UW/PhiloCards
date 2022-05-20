@@ -66,26 +66,15 @@ p.name {
   font-weight: bold;
 }
 
-
-.top_section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: white;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  gap: 10rem;
-}
-
 .top_right {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   background-color: white;
-  margin-top: 3%;
+  margin-top: 0px;
   margin-bottom: 10%;
-  gap: 4rem;
+
+
 }
 
 .top_right2 {
@@ -94,7 +83,6 @@ p.name {
   flex-direction: column;
   justify-content: center;
   background-color: #F5F5F5;
-  margin-top: 8%;
   margin-bottom: 10%;
   gap: 3rem;
 }
@@ -107,6 +95,12 @@ p.name {
   background-color: white;
   margin-bottom: 15%;
   gap: 2rem;
+
+  background-image: url('../public/image/Vector\ 16.svg'), url('../public/image/Vector\ 17.svg');
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position-y: -40%, 400%;
+  height: 600px;
 }
 
 .top_right_text2 {
@@ -243,14 +237,14 @@ img.review_pic {
 .philoCards {
   font-style: normal;
   font-weight: 800;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 72px;
   display: flex;
   align-items: flex-start;
   letter-spacing: 0.05em;
   color: #40777D;
-  margin-left: 480px;
-  margin-top: 100px;
+  margin-left: 340px;
+  margin-top: 50px;
   margin-bottom: 0;
   margin-right: 0;
 }
@@ -258,14 +252,14 @@ img.review_pic {
 .cards {
   font-style: normal;
   font-weight: 800;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 72px;
   display: flex;
   align-items: flex-start;
   letter-spacing: 0.05em;
   color: #40777D;
   margin-bottom: 0px;
-  margin-left: 450px;
+  margin-left: 320px;
   margin-top: 30px;
   margin-right: 0;
 }
@@ -274,31 +268,59 @@ img.review_pic {
   display: flex;
   align-items: flex-start;
   margin-bottom: 0px;
-  margin-left: 460px;
+  margin-left: 380px;
   margin-top: 30px;
   margin-right: 0;
 }
 
 .cardSVG {
   width: 500px;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
   justify-content: flex-end;
   flex-direction: row;
-  margin-top: 100px;
-  margin-right: 500px;
+  margin-top: -10px;
+  margin-left: -90px;
 }
 
 .top_section_up {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column wrap;
-  height:400px;
+  height:650px;
+
+  background-color: #86C7D3;
+  background-image: url('../public/image/Banner.svg');
+  background-size: 1600px;
+  background-position-y: -27000%;
+  background-repeat: no-repeat;
 }
 
 .section {
   display: flex;
+  justify-content: center;
+}
+
+.emp {
+  font-style: italic;
+}
+
+.top_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  gap: 10rem;
+}
+
+.text_size {
+  display: flex;
+  font-family: var(--font-body);
+  font-size: var(--font-body-2);
+  width: 1000px;
   justify-content: center;
 }
