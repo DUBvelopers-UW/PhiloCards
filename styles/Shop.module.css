@@ -102,7 +102,7 @@ p.name {
   margin-bottom: 10%;
   background-color: white;
   align-items: center;
-  padding: 10rem;
+  padding: 7rem;
 }
 
 .third_top {
@@ -128,7 +128,7 @@ p.name {
   flex-direction: column;
   justify-content: center;
   background-color: white;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   gap: 1rem;
 }
 
@@ -139,7 +139,7 @@ p.name {
   background-color: white;
   flex-direction: row;
   justify-content: flex-start;
-  width: 22rem;
+  width: 30rem;
   margin-bottom: 10%;
   gap: 0.5rem;
 }
@@ -174,8 +174,8 @@ img.sizing {
 }
 
 img.review_pic {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .button{
@@ -187,4 +187,5 @@ img.review_pic {
   color: white;
   background: #40777D;
   border-radius: 43.5px;
+  cursor: pointer;
 }

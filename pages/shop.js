@@ -1,4 +1,5 @@
 import styles from '../styles/Shop.module.css'
+import Link from "next/link";
 
 export default function Shop() {
   return (
@@ -17,7 +18,9 @@ export default function Shop() {
           </div>
 
           <div>
-            <button className={styles.button}>ADD TO CART</button>
+            <Link href="/checkout">
+              <button className={styles.button}>ADD TO CART</button>
+            </Link>
           </div>
         </div>
 
