@@ -1,5 +1,5 @@
 import styles from '../styles/About.module.css'
-
+import { AddressMap } from './map'
 export default function About() {
   return (
     <>
@@ -53,7 +53,8 @@ export default function About() {
 
       <div className={styles.location_section}>
         <h1 className={styles.title}>LOCATION</h1>
-
+        <AddressMap/>
+        
         <p>
           If you lived near the University of Washington, we can deliver the
           product to you! Contact us via Email or by text! Address: 4801 24th NE

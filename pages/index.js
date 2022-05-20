@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.top_right}>
           <div className={styles.top_right_text}>
             <div><h3 className={styles.title}>What is PhiloCards</h3></div>
-            <div><p className={styles.text_size}>If you're looking to get to know someone else better, learn new perspectives and ideas, or to be introduced to philosophy, our product is for you! Philo Card is a student-found card game that transform the way you can connect with somebody.</p></div>
+            <div><p className={styles.text_size}>If you're looking to get to know someone else better, learn new perspectives and ideas, or to be introduced to philosophy, our product is for you! Philo Card is a student-found card game that transforms the way you can connect with somebody.</p></div>
           </div>
         </div>
       
@@ -42,6 +42,7 @@ export default function Home() {
       
       <div className={styles.third_section}>
       <h3 className={styles.title}>REVIEWS</h3>
+      <div><p className={styles.section}>This shit sucks ass and is overprices 0/10</p></div>
       </div>
     </>
   )
