@@ -2,45 +2,47 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.main}>
-      <div className={styles.intro}>
+    <>
+      <div className={styles.top_section_up}>
+        <h1 className={styles.philoCards}>Philo</h1>
+        <h1 className={styles.cards}>Cards</h1>
+        <p className={styles.text}>so many things to <span className={styles.emp}>&nbsp;philo</span>-bout</p>
+        <img src="image/Card.svg" className={styles.cardSVG}/>
+        
+      </div>
 
-        <div className={styles.introTop}>
-          <h1 className={styles.philoHead}>
-            PHILO
-            <br/>
-            <span className={styles.shiftLeft}>CARDS</span>
-          </h1>
-          <p className={styles.philoText}>
-            so many things to <i>philo-bout</i>
-          </p>
+      
+        <div className={styles.top_right}>
+          <div className={styles.top_right_text}>
+            <div><h3 className={styles.title}>What is PhiloCards</h3></div>
+            <div><p className={styles.text_size}>If you're looking to get to know someone else better, learn new perspectives and ideas, or to be introduced to philosophy, our product is for you! Philo Card is a student-found card game that transform the way you can connect with somebody.</p></div>
+          </div>
+        </div>
+      
+
+
+      <div className={styles.second_section}>
+      <div>
+        <img src="image/card.png" className={styles.sizing} />
         </div>
 
-        <div className={styles.introBottom}>
-          <h3 className={`${styles.coreHeader} ${styles.center}`}>WHAT IS PHILO CARDS?</h3>
-          <p>
-            If you're looking to get to know someone else better, learn new
-            perspectives and ideas, or to be introduced to philosophy, our is for
-            you! Philo Card is a student-found card game that transform the way
-            you can connect with somebody
-          </p>
+        <div className={styles.top_right2}>
+          <div className={styles.top_right_text2}>
+            <div><h3 className={styles.shift}>How To Play</h3></div>
+            <div><p className={styles.section}>1. dolor sit amet, consectetur adipiscing elit.</p></div>
+            <div><p className={styles.section}>2. dolor sit amet, consectetur adipiscing elit.</p></div>
+          </div>
+
+          <div>
+            <button className={styles.button}>I WANT A DECK!</button>
+          </div>
         </div>
-
       </div>
 
-      <div className={styles.grey}>
-        <h3 className={`${styles.coreHeader} ${styles.shiftRight}`}>HOW TO PLAY</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          dolor quidem vero possimus! Omnis asperiores, fuga quisquam ducimus,
-          nisi expedita doloremque vitae quae tempore excepturi possimus eum
-          sunt incidunt hic.
-        </p>
+      
+      <div className={styles.third_section}>
+      <h3 className={styles.title}>REVIEWS</h3>
       </div>
-
-      <div className="">
-        <h3>TESTIMONIALS</h3>
-      </div>
-    </div>
+    </>
   )
 }
