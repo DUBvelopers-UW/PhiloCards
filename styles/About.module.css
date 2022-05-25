@@ -9,13 +9,14 @@ h1.title {
   display: flex;
   align-items: center;
   letter-spacing: 0.05em;
-  color: #40777d;
+  color: var(--color-brand-green-dark);
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 ul.team {
+  margin-top: 20px;
   list-style: none;
   text-align: center;
-  margin-top: 50px;
 }
 .about-section p {
   font-family: var(--font-body), sans-serif;
@@ -33,16 +34,34 @@ li.member {
   margin-left: 60px;
   position: relative;
 }
-.team {
-  background-color: #f5f5f5;
+.about_section {
+  background-color: var(--color-background-dark);
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .location_section {
   background-color: var(--color-background);
+  padding-bottom: 40px;
 }
 
-p.location_section {
+p.p_location {
   overflow-wrap: break-word;
+  width: 300px;
+}
+
+ul.location_info {
+  align-items: top;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -10%;
+  gap: 5%;
+}
+
+li.location_text {
+  vertical-align: top;
 }
 
 .overlay {
