@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ActiveLink from "../components/ActiveLink";
 import Image from "next/image";
 import styles from "../styles/Navbar.module.scss";
 
@@ -10,15 +10,9 @@ export default function Navbar() {
         <span className={styles.title}>philo</span>
       </div>
       <div className={styles.links}>
-        <Link href="/">
-          <a>home</a>
-        </Link>
-        <Link href="/shop">
-          <a>shop</a>
-        </Link>
-        <Link href="/about">
-          <a>about us</a>
-        </Link>
+        <ActiveLink href="/">home</ActiveLink>
+        <ActiveLink href="/shop">shop</ActiveLink>
+        <ActiveLink href="/about">about us</ActiveLink>
         <div>
           <span>cart</span>
         </div>
