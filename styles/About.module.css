@@ -78,9 +78,9 @@ li.location_text {
 }
 .overlay:after {
   content: attr(text-content);
+  text-align: center;
   color: #fff;
   position: absolute;
-  text-align: center;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -95,8 +95,30 @@ li.location_text {
 }
 
 .social_section {
+  padding-top: 40px;
   background-color: var(--color-background-dark);
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url("/image/card (left).svg"), url("/image/card (left).svg"), url("/image/card (right).svg") ;
+  background-repeat: no-repeat;
+  background-size:  500px 500px, 500px 500px, 600px 600px;
+  background-position: -250px 200px, 1300px 500px, 1200px -90px;
 }
+
+/* for prototype purpose only */
+.feed {
+  display: flex;
+  justify-content: center;
+}
+
+li.feed {
+  display: inline-block;
+}
+
+.feed_image {
+  width: 800px;
+}
+/* end */
 
 .logo {
   margin-top: 0;

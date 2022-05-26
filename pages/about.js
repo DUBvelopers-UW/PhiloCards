@@ -71,6 +71,8 @@ export default function About() {
       </div>
       <div className={styles["social_section"]}>
         <h1 className={styles.title}>SOCIAL MEDIA</h1>
+        <li className={styles.feed}><ul><img className={styles.feed_image} src="image/instaPlaceholder1.PNG"/></ul>
+        <ul><img className={styles.feed_image} src="image/instaPlaceholder2.PNG"/></ul></li>
       </div>
     </>
   );
