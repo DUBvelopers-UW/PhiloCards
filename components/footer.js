@@ -68,7 +68,11 @@ export default function Footer() {
             </IconContext.Provider>
           </div>
         </div>
+
+        <img src="image/yellow.svg" className={styles.images}/>
+        <img src="image/blue.svg" className={styles.images}/>
       </footer>
+
     </>
   );
 }

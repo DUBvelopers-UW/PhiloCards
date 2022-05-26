@@ -41,7 +41,27 @@ export default function Home() {
 
       
       <div className={styles.third_section}>
-      <h3 className={styles.title}>REVIEWS</h3>
+        <h3 className={styles.title}>REVIEWS</h3>
+
+        <div className={styles.review}>
+          <h3 className={styles.black}>"</h3>
+          <h3 className={styles.black}>Classic!</h3>
+          <p className={styles.reviewText}>- Random Customer</p>
+        </div>
+
+        <div className={styles.review}>
+          <h3 className={styles.black}>"</h3>
+          <h3 className={styles.black}>Amazing Conversation Starter.</h3>
+          <p className={styles.reviewText}>- Random Customer</p>
+        </div>
+
+        <div className={styles.review}>
+          <h3 className={styles.black}>"</h3>
+          <h3 className={styles.black}>Perfect for Friends!</h3>
+          <p className={styles.reviewText}>- Random Customer</p>
+        </div>
+
+
       </div>
     </>
   )
