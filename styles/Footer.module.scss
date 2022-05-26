@@ -86,7 +86,8 @@
   .images {
     position: absolute;
     right:0px;
-    margin-top:80px
+    margin-top: 80px;
+    pointer-events: none;
   }
 }
 
