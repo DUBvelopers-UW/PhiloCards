@@ -100,9 +100,12 @@ p.name {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 10%;
-  background-color: white;
   align-items: center;
   padding: 7rem;
+  background: url("/image/card (left).svg"), url("/image/card (left).svg"), url("/image/card (right).svg") ;
+  background-repeat: no-repeat;
+  background-size:  400px 500px, 600px 400px, 700px 800px;
+  background-position: 1200px 800px, -250px 1200px, -450px 80px;
 }
 
 .third_top {
@@ -110,7 +113,7 @@ p.name {
   flex-wrap: wrap;
   justify-content: center;
   background-color: white;
-  gap: 15rem;
+  gap: 12rem;
 }
 
 .third_top_left{
@@ -142,13 +145,13 @@ p.name {
   width: 30rem;
   margin-bottom: 10%;
   gap: 0.5rem;
+  padding-left: 3rem;
 }
 
 .third_bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white;
   align-items: center;
   gap: 2rem;
   padding: 8rem 0;
@@ -159,7 +162,7 @@ p.name {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  width: 55rem;
+  width: 50rem;
   height: 15rem;
   background-color: #F5F5F5;
   text-align: left;
@@ -177,6 +180,11 @@ img.review_pic {
   width: 6rem;
   height: 6rem;
 }
+
+img.star {
+  padding-top: 2rem;
+}
+
 
 .button{
   font-family: 'Roboto';

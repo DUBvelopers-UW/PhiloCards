@@ -1,5 +1,6 @@
 import styles from '../styles/Shop.module.css'
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function Shop() {
   return (
@@ -51,7 +52,7 @@ export default function Shop() {
                 <div><p className={styles.review}>7 reviews</p></div>
               </div>
               <div>
-                <img src="image/star.png"/>
+                <img className={styles.star} src="image/star.png"/>
               </div>
             </div>
 
