@@ -11,7 +11,7 @@
   color: var(--color-font);
   z-index: 10;
 
-  .logo {
+  .logo > a {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -29,6 +29,11 @@
     font-weight: 700;
     display: flex;
     gap: 2rem;
+
+    button {
+      text-transform: uppercase;
+      cursor: pointer;
+    }
   }
 
   .links a::after {
