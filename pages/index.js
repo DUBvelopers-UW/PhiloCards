@@ -42,7 +42,6 @@ export default function Home() {
       
       <div className={styles.third_section}>
       <h3 className={styles.title}>REVIEWS</h3>
-      <div><p className={styles.section}>This shit sucks ass and is overprices 0/10</p></div>
       </div>
     </>
   )
