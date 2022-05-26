@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import cardImage from "../public/image/card.png";
 import { MdOutlineCancelPresentation } from "react-icons/md";
 
@@ -35,9 +36,15 @@ function Cart({ isOpen, toggleCart }) {
           <span>subtotal</span>
           <span>$ 20.00</span>
         </div>
-        <div className="">
-          <button className="order-btn">place order</button>
-        </div>
+        <Link href="/checkout">
+          <button
+            role="button"
+            className="order-btn"
+            onClick={() => toggleCart()}
+          >
+            go to checkout
+          </button>
+        </Link>
       </div>
       <style jsx>{`
         .cart {
@@ -141,6 +148,7 @@ function Cart({ isOpen, toggleCart }) {
           text-transform: uppercase;
           font-family: var(--font-heading);
           font-size: var(--font-body-2);
+          cursor: pointer;
         }
       `}</style>
     </div>
