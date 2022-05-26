@@ -30,4 +30,20 @@
     display: flex;
     gap: 2rem;
   }
+
+  .links a::after{
+    content: '';
+    height: 2px;
+    background:#000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    opacity:0%;
+}
+
+.links a:hover::after{
+  width: 100%;
+  opacity: 100%;
+}
+
 }
