@@ -58,9 +58,11 @@ function Cart({ isOpen, toggleCart }) {
           transition: transform 0.2s linear;
           transform: translate3d(40vw, 0, 0);
           padding: 1rem;
+          visibility: hidden;
         }
 
         .cart[class*="open"] {
+          visibility: visible;
           transform: translate3d(0, 0, 0);
         }
 
